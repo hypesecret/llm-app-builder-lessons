@@ -12,6 +12,7 @@ Everything here was measured on our own runs (≈ 100 model calls, ≈ $4 spent)
 4. **Mobile defects hide in screenshots.** Our two best-looking apps overflowed horizontally on a real 390 px viewport. [→ 04](lessons/04-mobile-defects-hide-in-screenshots.md)
 5. **Prove your tests can fail.** Re-introduce the bug on purpose and watch the test go red. Ours had gaps we only found that way. [→ 05](lessons/05-testing-the-money-code.md)
 6. **Most of our expensive mistakes were in the measuring, not the models.** [→ 06](lessons/06-mistakes-we-made.md)
+7. **Cash is not capacity.** On a prepaid LLM balance, the constraint is the delay between a customer paying you and that money reaching the provider. One generic error for every system-side problem, one incident log, a worst case you can compute without statistics, and free trials refused first. [→ 07](lessons/07-cash-is-not-capacity.md) · package: [`llm-capacity`](https://github.com/hypesecret/llm-capacity)
 
 ## Headline numbers (edits, 15 requests × 8 models)
 
